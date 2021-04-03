@@ -17,7 +17,7 @@ Cronômetro simples
 
 ### Demonstração 
 
-![](res\ref1.PNG)
+![](res/ref1.png)
 
 
 ### 🛠 Tecnologias
