@@ -56,7 +56,6 @@ html, body {
   justify-content: center;
   border-radius: 4px;
   cursor: pointer;
-  
 }
 
 .btnDefault {
@@ -159,12 +158,13 @@ html, body {
 }
 
 
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 600px) {
+  .time {
+    font-size: 80px;
+    height: 200px;
   }
-  to {
-    transform: rotate(360deg);
+  .actions {
+    padding: 0px 16px;
+    height: 100px;
   }
 }
