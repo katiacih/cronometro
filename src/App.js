@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='App'>
       <div className="header">
-       <h2>Cronometro</h2> 
+       <h2>Cronômetro</h2> 
       </div>
       <div className='body'>
           <Cronometro/>

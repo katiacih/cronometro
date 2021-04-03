@@ -61,7 +61,7 @@ export function Cronometro () {
 
   return (
     <div>
-      <div className='time'>{formatTimer(state.minutos, state.segundos)}</div>
+      <div data-testid='timer' className='time'>{formatTimer(state.minutos, state.segundos)}</div>
       <div className='actions'>
         <button className={['btnDefault btn', op === 'play' ? 'isActive' : ''].join(' ')} 
           onClick={setStatePlay}><FaPlay/>Iniciar</button>
