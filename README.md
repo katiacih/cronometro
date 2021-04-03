@@ -17,8 +17,9 @@ Cronômetro simples
 
 ### Demonstração 
 
+![demonstração](https://github.com/katiacih/cronometro/blob/master/res/ref1.PNG)
 ![](res/ref1.png)
-
+![](cronometro/res/ref1.png)
 
 ### 🛠 Tecnologias
 
