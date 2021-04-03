@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+
+import React from 'react'
+import { Cronometro } from './cronometro'
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div className="header">
+       <h2>Cronometro</h2> 
+      </div>
+      <div className='body'>
+          <Cronometro/>
+      </div>
+      <div className='footer'>
+        <span>Produzido por <a href={'/'}>@katiacih</a></span>
+      </div>
     </div>
   );
 }

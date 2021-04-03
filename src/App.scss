@@ -1,0 +1,170 @@
+
+
+$bg: #000000;
+$secondary: #2ee38d;
+$bgFooter: #565656;
+$white: #ffff;
+$secondaryHover: #27ae60;
+$secondaryOut: #727272;
+$disabledBtnOutBg:  #4A4444;
+$disabled: #9BA9A1;
+$btDefaultActive: #2B744A;
+$heightHeader: 70px;
+
+
+html, body {
+  height: 100%;
+}
+
+
+.App {
+  background-color: $bg;
+  color: $secondary;
+  height: 100%;
+
+  .header {
+    height: $heightHeader;
+    padding: 16px 60px;
+    h1 {
+      margin: 0px;
+    }
+
+  }
+  .body {
+    height: calc(100% - 70px - 102px);
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bgFooter;
+    height: $heightHeader;
+    color: $white;
+    a {
+      color: $secondary;
+    }
+  }
+  
+}
+
+.btn {
+  height: 36px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.btnDefault {
+  background-color: $secondary;
+  color: $bg;
+  border: 0px;
+  svg {
+    font-size: 18px;
+    margin-right: 8px;
+    color: $bg;
+  }
+  &:hover {
+    background-color: $secondaryHover;
+  }
+  &:disabled {
+    background-color: $disabled;
+    color: $bg;
+  }
+  &:active {
+    background-color: $btDefaultActive;
+    color: $white;
+    svg {
+      color: $white;
+    }
+  }
+
+}
+
+.isActive {
+  background-color: $btDefaultActive;
+  color: $white;
+  svg {
+    color: $white;
+  }
+}
+
+
+.btnOutlined {
+  background-color: transparent;
+  border: 1px solid $secondary;
+  color: $secondary;
+  svg {
+    font-size: 18px;
+    margin-right: 8px;
+    color: $secondary
+  }
+  &:hover {
+    background-color: $secondaryOut;
+  }
+  &:focus {
+    outline:  3px solid $secondary;
+  }
+  &:disabled {
+    background-color: $disabledBtnOutBg;
+    border-color: $disabledBtnOutBg;
+    color: $disabled;
+    svg {
+      color: $disabled;
+    }
+  }
+  &:active {
+    border: 3px solid $secondary;
+    background-color: transparent;
+    color: $secondary;
+  }
+}
+
+.isActivePause {
+  border: 5px solid $secondary;
+  background-color: transparent;
+  color: $secondary;
+  svg {
+    color: $secondary;
+  }
+
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 200px;
+}
+
+.label {
+  text-align: center;
+  :first-child {
+    margin-right: 150px;
+  }
+}
+
+.actions {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0px 60px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
