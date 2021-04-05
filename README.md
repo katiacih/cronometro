@@ -22,7 +22,7 @@ Finalizado
 ![](res/ref1.png)
 ![](cronometro/res/ref1.png)
 
-### 🛠 Tecnologias
+###  Tecnologias 🛠
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
