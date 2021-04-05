@@ -7,15 +7,15 @@ Cronômetro simples
 
 <!--te-->
 
-## Status
+## 🔘 Status
 👍🏻 Finalizado
 
 
-### Features
+### 🏁 Features
 🚧  🚀 Em construção...  🚧
 
 
-### Demonstração 
+### 💻 Demonstração 
 
 ![demonstração](https://github.com/katiacih/cronometro/blob/master/res/ref1.PNG)
 ![](res/ref1.png)
@@ -30,13 +30,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React Icons](https://react-icons.github.io/react-icons/)
 
 
-### Pré-requisitos
+### 🔧 Pré-requisitos
 
 Antes de iniciar instale:
 
-- [ReactJs](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Icons](https://react-icons.github.io/react-icons/)
+- [Node](https://nodejs.org/en/)
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
@@ -62,7 +60,7 @@ $ npm start
 ```
 
 
-#Autor   
+# 👩🏻‍💻 Autor   
 
 Kátia Cibele 🚀❤️👋🏽 
 Entre em contato!
