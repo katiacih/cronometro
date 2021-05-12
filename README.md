@@ -7,7 +7,7 @@ Cronômetro simples
 
 <!--te-->
 
-## Status
+## Status..\..\..\..\AppData\Local\Programs\Microsoft VS Code
 👍🏻 Finalizado
 
 
@@ -20,6 +20,7 @@ Cronômetro simples
 ![demonstração](https://github.com/katiacih/cronometro/blob/master/res/ref1.PNG)
 ![](res/ref1.png)
 ![](cronometro/res/ref1.png)
+![](cronometro/res/demo.gif)
 
 ### 🛠 Tecnologias
 
