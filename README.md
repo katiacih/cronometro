@@ -7,22 +7,28 @@ Cronômetro simples
 
 <!--te-->
 
+<<<<<<< HEAD
 ## Status..\..\..\..\AppData\Local\Programs\Microsoft VS Code
 👍🏻 Finalizado
+=======
+## Status
+Finalizado
+>>>>>>> faa18e21eaa3e41d8123050664a429cab2a68a8d
 
 
-### Features
-🚧  🚀 Em construção...  🚧
+###  Features 🏁
+
+🚧  Em construção...  🚧
 
 
-### Demonstração 
+###  Demonstração 💻
 
 ![demonstração](https://github.com/katiacih/cronometro/blob/master/res/ref1.PNG)
 ![](res/ref1.png)
 ![](cronometro/res/ref1.png)
 ![](cronometro/res/demo.gif)
 
-### 🛠 Tecnologias
+###  Tecnologias 🛠
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -31,20 +37,18 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React Icons](https://react-icons.github.io/react-icons/)
 
 
-### Pré-requisitos
+###  Pré-requisitos 🔧
 
 Antes de iniciar instale:
 
-- [ReactJs](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Icons](https://react-icons.github.io/react-icons/)
+- [Node](https://nodejs.org/en/)
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-### 🎲 Rodando
+###  Rodando 🎲
 
 ```bash
 # Clone este repositório
@@ -63,9 +67,9 @@ $ npm start
 ```
 
 
-#Autor   
+#  Autor 👩🏻‍💻
 
-Kátia Cibele 🚀❤️👋🏽 
+Kátia Cibele  
 Entre em contato!
 ![Badge](https://img.shields.io/badge/katiacih-entre%20em%20contato-green)
-[![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/kennethreitz)
+
