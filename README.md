@@ -14,7 +14,8 @@ Cronômetro simples
 
 ###  Features 🏁
 
-🚧  Em construção...  🚧
+- cronometro
+- 
 
 
 ###  Demonstração 💻
@@ -25,8 +26,7 @@ Cronômetro simples
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
+- [ReactJs](https://pt-br.reactjs.org/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 
 
